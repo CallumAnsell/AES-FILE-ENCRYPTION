@@ -7,7 +7,7 @@ namespace AES_FILE_ENCRYPTION
 {
     internal sealed class Crypto
     {
-        private const string Salt = "874c75nmh8env73msovbhhl";
+        private const string Salt = "123456789abcdefg1234567";
         private const int SizeOfBuffer = 1024 * 8;
 
         internal static byte[] EncryptStringToBytes(string plainText, byte[] key, byte[] iv)
